@@ -1,0 +1,11 @@
+name: media-downloader-bot
+
+services:
+  - name: media-downloader
+    image:
+      name: docker.io/<your-dockerhub-username>/media-downloader-bot:latest
+    instance:
+      type: nano
+      disk: 1GB
+    ports:
+      - 80:8000
