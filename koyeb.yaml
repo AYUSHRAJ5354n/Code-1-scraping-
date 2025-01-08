@@ -3,7 +3,7 @@ name: media-downloader-bot
 services:
   - name: media-downloader
     image:
-      name: docker.io/<your-dockerhub-username>/media-downloader-bot:latest
+      name: docker.io/AYUSHRA5354n/media-downloader-bot:latest
     instance:
       type: nano
       disk: 1GB
