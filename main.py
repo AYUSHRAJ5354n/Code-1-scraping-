@@ -5,7 +5,7 @@ from downloader.downloader import download_video, download_queue
 from telegram_bot.bot import main as start_bot
 
 def run_scraper():
-    asyncio.run(check_for_new_videos('https://example.com'))  # Replace 'https://example.com' with your target website URL
+    asyncio.run(check_for_new_videos('https://luciferdonghua.in'))  # Replace 'https://example.com' with your target website URL
 
 if __name__ == '__main__':
     # Start the scraper in a separate thread
